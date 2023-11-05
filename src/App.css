@@ -5,6 +5,7 @@ html, body {
   font-family: "inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  height: 1000vh;
 }
 
 .wrapper-grid {
@@ -12,6 +13,7 @@ html, body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
+
 }
 
 .btn-red {
@@ -645,7 +647,7 @@ header .nav-section .menu .main-menu nav a.active::after, header .nav-section .m
 }
 
 .service-consulting {
-  height: 890px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   background-color: #F0EFE9;
@@ -676,6 +678,7 @@ header .nav-section .menu .main-menu nav a.active::after, header .nav-section .m
   padding-left: 75px;
   width: 40%;
 }
+
 .service-consulting .service-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
