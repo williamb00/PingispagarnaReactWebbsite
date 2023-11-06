@@ -3,7 +3,7 @@ import img_logotype from '../assets/images/logotypepp1.gif'
 
 const NavSection = () => {
   return (
-    <section className="nav-section">
+    <section className="container">
 
         <a href="index.html"><img className="logotype" src={img_logotype} alt="Pingispågarna" width="110" height="95"/></a>
         <button className="menu-bars"><i className="fa-sharp fa-solid fa-bars-staggered fa-rotate-180 fa-lg"></i></button>
