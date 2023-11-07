@@ -5,9 +5,11 @@ import Companies from './Components/Companies';
 import ConsultingAgency from './Components/ConsultingAgency';
 import Features from './Components/Features';
 import Header from './Components/header';
+import MenuEnd from './Components/MenuEnd';
 import NewsLetter from './Components/NewsLetter';
 import ProjectCase from './Components/ProjectCase';
 import ServiceConsulting from './Components/ServiceConsulting';
+import SocialMedia from './Components/SocialMedia';
 import Team from './Components/Team';
 
 function App() {
@@ -32,6 +34,10 @@ function App() {
       <Articles />
 
       <NewsLetter />
+
+      <MenuEnd />
+
+      <SocialMedia />
 
     </div>
   );
