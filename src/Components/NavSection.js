@@ -7,7 +7,7 @@ const NavSection = () => {
   return (
     <section className="container">
 
-        <a href="index.html"><img className="logotype" src={img_logotype} alt="Pingispågarna" width="110" height="95"/></a>
+        <a href="Home"><img className="logotype" src={img_logotype} alt="Pingispågarna" width="110" height="95"/></a>
         <button className="menu-bars"><i className="fa-sharp fa-solid fa-bars-staggered fa-rotate-180 fa-lg"></i></button>
         <div className="menu">
         <div className="top-menu">
@@ -42,11 +42,11 @@ const NavSection = () => {
         </div>
             <div className="main-menu">
                 <nav>
-                    <a href="index.html">Home</a>
+                    <a href="Home">Home</a>
                     <a href="videos.html">Videos</a>
                     <a href="aboutus.html">About us</a>
                     <a href="ppmerch.html">PP Merch</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="Contacts">Contact</a>
                 </nav>
                 <a className= "btn-red" href="login.html">Login <i className="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>

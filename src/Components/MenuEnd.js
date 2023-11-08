@@ -8,7 +8,7 @@ const MenuEnd = () => {
 <div className="grid-container">
     
     <div className="showcase-fraction">
-        <a href="index.html"><img className="logotype" src={img_logotype} alt="Pingispågarna" width="110" height="95"/></a>
+        <a href="Home"><img className="logotype" src={img_logotype} alt="Pingispågarna" width="110" height="95"/></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
     </div>
     
