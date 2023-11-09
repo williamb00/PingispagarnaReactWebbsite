@@ -6,6 +6,7 @@ import ContactsHeader from '../Components/ContactsHeader'
 import Showcase from '../Components/Showcase';
 import NavSection from '../Components/NavSection';
 import Header from '../Components/header';
+import Connect from '../Components/Connect';
 
 
 
@@ -14,6 +15,8 @@ const Contacts = () => {
     <div>
 
     <ContactsHeader />
+
+    <Connect />
 
     <MenuEnd />
 

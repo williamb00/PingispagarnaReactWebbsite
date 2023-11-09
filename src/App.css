@@ -1209,3 +1209,57 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .text-social-media a:hover {
   color: rgba(88, 86, 86, 0.537254902);
 }
+
+
+.container-contacts {
+  
+  height: 250px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0efe9;
+  position: relative;
+  padding-top: 50px;
+  
+}
+
+.container-contacts img.background-lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: 680px;
+}
+
+.header-contacts h5:first-child {
+  margin-right: 20px;
+}
+
+
+.container-contacts h2 {
+  font-size: 16px;
+  font-family: 'inter';
+  color: #191919;
+}
+
+.container-contacts h1 {
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "DM Sans";
+  margin-top: 10px;
+  color: #191919;
+}
+
+.header-contacts a {
+  text-decoration: none;
+  color: #191919;
+  }
+
+
+a:hover {
+  font-weight: 800px;
+  text-decoration: underline;
+}
