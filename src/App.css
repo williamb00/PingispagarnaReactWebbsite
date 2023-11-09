@@ -1310,3 +1310,84 @@ h4 {
   color: #888;
   margin-bottom: 10px;
 }
+
+
+.Formula {
+  height: 700px;
+}
+
+.contact-form-box {
+  background-color: #f0efe9;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  width: 1200px; /* Ändra bredden efter behov */
+  height: 650px;
+  margin: 0 auto; /* Centrera boxen */
+  text-align: center;
+}
+
+.contact-form-box h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 375px;
+  width: 30%;
+  text-align: center;
+}
+
+.contact-form-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  width: 800px;
+  margin-bottom: 10px;
+  padding: 18px;
+  border: none;
+  border-radius: 25px;
+ 
+}
+
+.contact-form-box textarea {
+  
+  height: 150px; /* Justera höjden för textfältet */
+  resize: none; /* Förhindra storleksändring */
+  border-radius: 30px;
+  
+}
+
+.btn-yellow {
+  background-color: #f9d783;
+  color: #191919;
+  border: none;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 25px;
+  width: 800px;
+}
+.btn-yellow i {
+  margin-left: 8px;
+  font-size: 0.85em;
+}
+.btn-yellow:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+
+.error {
+  color: red;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+

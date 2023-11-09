@@ -8,6 +8,7 @@ import NavSection from '../Components/NavSection';
 import Header from '../Components/header';
 import Connect from '../Components/Connect';
 import BoxContacts from '../Components/BoxContacts';
+import ContactForm from '../Components/ContactForm';
 
 
 
@@ -20,6 +21,8 @@ const Contacts = () => {
     <Connect />
 
     <BoxContacts />
+
+    <ContactForm />
 
     <MenuEnd />
 
