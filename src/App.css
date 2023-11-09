@@ -1213,7 +1213,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 
 .container-contacts {
   
-  height: 250px;
+  height: 300px;
   text-align: center;
   font-family: Arial, sans-serif;
   background-color: #f0efe9;
@@ -1259,7 +1259,54 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   }
 
 
-a:hover {
-  font-weight: 800px;
-  text-decoration: underline;
+.header-contacts a:hover {
+  font-weight: bold;
+  color: #6a6c71;
+  
+}
+
+
+.container-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #D1D1D1;
+  padding: 20px;
+  height: 50%;
+  width: 75%;
+  margin: 80px;
+}
+
+.text {
+  margin-left: 50px;
+}
+
+.text h4 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Icon11,
+.Icon22,
+.Icon33 {
+  align-self: flex-start; /* Justera vertikalt - flytta upp bilden */
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.gray {
+  color: #888;
+  margin-bottom: 10px;
 }
