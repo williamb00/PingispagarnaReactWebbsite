@@ -9,6 +9,7 @@ import Header from '../Components/header';
 import Connect from '../Components/Connect';
 import BoxContacts from '../Components/BoxContacts';
 import ContactForm from '../Components/ContactForm';
+import MapContacts from '../Components/MapContacts';
 
 
 
@@ -23,6 +24,8 @@ const Contacts = () => {
     <BoxContacts />
 
     <ContactForm />
+
+    <MapContacts />
 
     <MenuEnd />
 
