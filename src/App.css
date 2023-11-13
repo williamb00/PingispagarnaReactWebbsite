@@ -1391,11 +1391,4 @@ h4 {
   font-size: 14px;
 }
 
-.Contacts {
-  /* Ange önskad höjd här, t.ex. 100vh för 100% av vyhöjden */
-  height: 100vh;
-  /* Ytterligare stilar om det behövs */
-  overflow: hidden; /* Används om du inte vill ha rullningsfält om innehållet är för stort */
-}
-
 
