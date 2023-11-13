@@ -10,8 +10,8 @@ const BoxContacts = () => {
   <img className="Icon11" src={img_Icon11} alt=""/>
     <div className="text">
       <h4>Visit us</h4>
-      <p className="gray">Sveavägen 31</p>
-      <p className="gray">111 34 Stockholm</p>
+      <p className="gray">Trädgårdsgatan 63</p>
+      <p className="gray">265 36 ÅSTORP</p>
     </div>
   </div>
   <div className="box call">

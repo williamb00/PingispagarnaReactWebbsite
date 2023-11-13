@@ -1392,14 +1392,4 @@ h4 {
 }
 
 
-/* Styla kartans container */
-.Map-container {
-  width: 100%;
-  height: 400px;
-}
-
-/* Styla kartans element */
-.Map-element {
-  height: 100%;
-}
 

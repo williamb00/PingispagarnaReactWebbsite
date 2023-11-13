@@ -18,11 +18,11 @@ const NavSection = () => {
                 </div>
                 <div className="content-box">
                     <i className="fa-sharp fa-regular fa-envelope"></i>
-                    william.bjorklund.00@gmail.com
+                    pingispagarna@gmail.com
                 </div>
                 <div className="content-box last">
                     <i className="fa-light fa-location-dot"></i>
-                    Sveavägen 31, 111 34 STOCKHOLM
+                    Trädgårdsgatan 63, 265 36 ÅSTORP
                 </div>
             </div>
             <div className="social-media">
