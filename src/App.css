@@ -1392,3 +1392,19 @@ h4 {
 }
 
 
+.Icon {
+  width: 85px; 
+  height: 85px; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover .Icon {
+  transform: scale(1.3); 
+}
+
+.contacts-container {
+  /* Lägg till dina specifika stilar här */
+  height: 500px; /* Till exempel: ta upp minst hela visningshöjden */
+  padding: 20px; /* Lägg till önskad stoppning om det behövs */
+  /* ... andra stilar ... */
+}
